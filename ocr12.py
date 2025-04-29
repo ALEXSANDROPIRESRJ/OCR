@@ -97,3 +97,4 @@ for nome_arquivo in imagens:
     #    print(f"📁 Imagem movida para: {caminho_destino}")
     # except FileNotFoundError:
     #    print(f"❌ Arquivo não encontrado ao tentar mover: {caminho_imagem}")
+    # Pirão

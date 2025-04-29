@@ -91,9 +91,9 @@ for nome_arquivo in imagens:
     print(f"⏱ Tempo total: {fim_total - inicio_total:.2f} s")
 
     # Move imagem processada para a pasta de saída
-    caminho_destino = os.path.join(pasta_saida, nome_arquivo)
-    try:
-        shutil.move(caminho_imagem, caminho_destino)
-        print(f"📁 Imagem movida para: {caminho_destino}")
-    except FileNotFoundError:
-        print(f"❌ Arquivo não encontrado ao tentar mover: {caminho_imagem}")
+    # caminho_destino = os.path.join(pasta_saida, nome_arquivo)
+    # try:
+    #    shutil.move(caminho_imagem, caminho_destino)
+    #    print(f"📁 Imagem movida para: {caminho_destino}")
+    # except FileNotFoundError:
+    #    print(f"❌ Arquivo não encontrado ao tentar mover: {caminho_imagem}")

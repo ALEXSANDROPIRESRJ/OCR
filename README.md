@@ -6,7 +6,7 @@ Este projeto realiza a leitura de placas de veículos a partir de imagens, utili
 
 - `imagens/`: Pasta onde você deve colocar as imagens a serem analisadas.
 - `analisadas/`: Pasta onde as imagens processadas serão movidas (opcional, pode ser desativado no código).
-- `main.py`: Arquivo principal com toda a lógica de OCR.
+- `ocr12.py`: Arquivo principal com toda a lógica de OCR.
 
 ## 🧠 Tecnologias Utilizadas
 

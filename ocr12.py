@@ -12,8 +12,8 @@ inicio_total = time.time()
 warnings.filterwarnings("ignore")
 
 # Caminhos
-pasta_entrada = r'C:/Users/fadami/Documents/OCRDOZERO/imagens'
-pasta_saida = r'C:/Users/fadami/Documents/OCRDOZERO/analisadas'
+pasta_entrada = r'C:/Users/Documents/OCRDOZERO/imagens'
+pasta_saida = r'C:/Users/Documents/OCRDOZERO/analisadas'
 os.makedirs(pasta_saida, exist_ok=True)
 
 # Inicializa o EasyOCR uma vez (muito mais eficiente)
